@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26909" started-at="2021-12-18T09:23:59 IST" finished-at="2021-12-18T09:24:26 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26909" started-at="2021-12-18T09:23:59 IST" finished-at="2021-12-18T09:24:26 IST">
+      <class name="vtigertests.testVtigerLeadsAssignment">
+        <test-method status="PASS" signature="openBrowserAndUrl()[pri:0, instance:vtigertests.testVtigerLeadsAssignment@eafc191]" name="openBrowserAndUrl" is-config="true" duration-ms="11946" started-at="2021-12-18T09:23:59 IST" finished-at="2021-12-18T09:24:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndUrl -->
+        <test-method status="PASS" signature="testAddLead()[pri:0, instance:vtigertests.testVtigerLeadsAssignment@eafc191]" name="testAddLead" duration-ms="7971" started-at="2021-12-18T09:24:11 IST" finished-at="2021-12-18T09:24:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddLead -->
+        <test-method status="PASS" signature="testEditLead()[pri:1, instance:vtigertests.testVtigerLeadsAssignment@eafc191]" name="testEditLead" duration-ms="3003" started-at="2021-12-18T09:24:19 IST" depends-on-methods="vtigertests.testVtigerLeadsAssignment.testAddLead" finished-at="2021-12-18T09:24:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditLead -->
+        <test-method status="PASS" signature="testDeleteLead()[pri:2, instance:vtigertests.testVtigerLeadsAssignment@eafc191]" name="testDeleteLead" duration-ms="1237" started-at="2021-12-18T09:24:22 IST" depends-on-methods="vtigertests.testVtigerLeadsAssignment.testEditLead" finished-at="2021-12-18T09:24:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteLead -->
+        <test-method status="PASS" signature="logoutAndCloseBrowser()[pri:0, instance:vtigertests.testVtigerLeadsAssignment@eafc191]" name="logoutAndCloseBrowser" is-config="true" duration-ms="2678" started-at="2021-12-18T09:24:23 IST" finished-at="2021-12-18T09:24:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAndCloseBrowser -->
+      </class> <!-- vtigertests.testVtigerLeadsAssignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

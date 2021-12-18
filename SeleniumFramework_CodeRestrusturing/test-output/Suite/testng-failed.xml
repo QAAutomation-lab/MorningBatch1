@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="utilities.TestListener"/>
+    <listener class-name="utilities.AnnotationTransformer"/>
+  </listeners>
+  <test name="T_TestSuite(failed)" parallel="none">
+    <classes>
+      <class name="testscripts.TestLogic2">
+        <methods>
+          <include name="testSetupMethod"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- testscripts.TestLogic2 -->
+      <class name="testscripts.TestLogic">
+        <methods>
+          <include name="testSetupMethod"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- testscripts.TestLogic -->
+    </classes>
+  </test> <!-- T_TestSuite(failed) -->
+</suite> <!-- Failed suite [Suite] -->
