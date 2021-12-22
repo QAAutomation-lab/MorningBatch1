@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22313" started-at="2021-12-22T03:57:01Z" finished-at="2021-12-22T03:57:24Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="22313" started-at="2021-12-22T03:57:01Z" finished-at="2021-12-22T03:57:24Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@769f71a9]" name="setUpClass" is-config="true" duration-ms="158" started-at="2021-12-22T09:27:01Z" finished-at="2021-12-22T09:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="6579" started-at="2021-12-22T09:27:02Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-22T09:27:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search 'selenium interview questions' in Google"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Perform Google Search based on requirement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="9272" started-at="2021-12-22T09:27:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-22T09:27:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Selenium 3.0 in Google search page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Perform Google Search based on requirement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="6087" started-at="2021-12-22T09:27:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-22T09:27:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Selenium 4.0 in Google search page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Perform Google Search based on requirement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@769f71a9]" name="tearDownClass" is-config="true" duration-ms="27" started-at="2021-12-22T09:27:24Z" finished-at="2021-12-22T09:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
